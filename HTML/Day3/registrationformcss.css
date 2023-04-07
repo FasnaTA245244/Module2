@@ -1,0 +1,13 @@
+body{
+    background-image: url("Images/evyAzi.webp");
+    background-size: cover;
+}
+/* table{
+    background-color: white;
+} */
+header{
+    color: palevioletred;
+}
+main>h3{
+    color: palevioletred;
+}

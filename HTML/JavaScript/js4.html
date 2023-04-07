@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mul Table</title>
+</head>
+<body>
+    <script>
+    var n=parseInt(prompt("Enter a Number"));
+    var s=parseInt(prompt("Enter Start"));
+    var l=parseInt(prompt("Enter Limit"));
+    for(var i=s;i<=l;i++)
+    {
+        // document.write("<h2>10 * "+i+" = "+10*i+"</h2>" );
+        document.write("<tr>");
+            document.write("<td>"+i+"</td>");
+            document.write("<td> * </td>");
+            document.write("<td>"+n+"</td>");
+            document.write("<td>= </td>");
+            document.write("<td>"+n*i+"</td>");
+
+    }
+</script>
+</body>
+</html>
